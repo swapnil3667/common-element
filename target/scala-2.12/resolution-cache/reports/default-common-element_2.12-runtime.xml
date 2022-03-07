@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="common-element_2.12"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20220306101103"/>
+	<dependencies>
+		<module organisation="com.github.scopt" name="scopt_2.12">
+			<revision name="3.7.1" status="release" pubdate="20181213061620" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scopt/scopt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3064" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.scopt/scopt_2.12/ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.pom"/>
+				<caller organisation="default" name="common-element_2.12" conf="compile, runtime" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scopt_2.12" type="jar" ext="jar" status="no" details="" size="78803" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.scopt/scopt_2.12/jars/scopt_2.12-3.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.pureconfig" name="pureconfig_2.12">
+			<revision name="0.10.2" status="release" pubdate="20190205194706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3008" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig_2.12/ivy-0.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.2/pureconfig_2.12-0.10.2.pom"/>
+				<caller organisation="default" name="common-element_2.12" conf="compile, runtime" rev="0.10.2" rev-constraint-default="0.10.2" rev-constraint-dynamic="0.10.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="pureconfig_2.12" type="jar" ext="jar" status="no" details="" size="301" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig_2.12/jars/pureconfig_2.12-0.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.12/0.10.2/pureconfig_2.12-0.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.pureconfig" name="pureconfig-generic_2.12">
+			<revision name="0.10.2" status="release" pubdate="20190205194729" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-generic_2.12/ivy-0.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.12/0.10.2/pureconfig-generic_2.12-0.10.2.pom"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig_2.12" conf="default, compile, runtime, master" rev="0.10.2" rev-constraint-default="0.10.2" rev-constraint-dynamic="0.10.2" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="pureconfig-generic_2.12" type="bundle" ext="jar" status="no" details="" size="87965" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-generic_2.12/bundles/pureconfig-generic_2.12-0.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.12/0.10.2/pureconfig-generic_2.12-0.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231145153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3230" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-generic_2.12" conf="compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="no" details="" size="3243337" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102084258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.pureconfig" name="pureconfig-core_2.12">
+			<revision name="0.10.2" status="release" pubdate="20190205194924" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-core_2.12/ivy-0.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.12/0.10.2/pureconfig-core_2.12-0.10.2.pom"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig_2.12" conf="default, compile, runtime, master" rev="0.10.2" rev-constraint-default="0.10.2" rev-constraint-dynamic="0.10.2" callerrev="0.10.2"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-generic_2.12" conf="compile, runtime" rev="0.10.2" rev-constraint-default="0.10.2" rev-constraint-dynamic="0.10.2" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="pureconfig-core_2.12" type="bundle" ext="jar" status="no" details="" size="561473" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-core_2.12/bundles/pureconfig-core_2.12-0.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.12/0.10.2/pureconfig-core_2.12-0.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.3" status="release" pubdate="20180221193821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2730" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.typesafe/config/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-core_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="286090" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.pureconfig" name="pureconfig-macros_2.12">
+			<revision name="0.10.2" status="release" pubdate="20190205194745" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pureconfig/pureconfig" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Mozilla Public License, version 2.0" url="https://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3007" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-macros_2.12/ivy-0.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-macros_2.12/0.10.2/pureconfig-macros_2.12-0.10.2.pom"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-core_2.12" conf="compile, runtime" rev="0.10.2" rev-constraint-default="0.10.2" rev-constraint-dynamic="0.10.2" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="pureconfig-macros_2.12" type="jar" ext="jar" status="no" details="" size="64634" time="0" location="/Users/swapnil.kumar/.ivy2/cache/com.github.pureconfig/pureconfig-macros_2.12/jars/pureconfig-macros_2.12-0.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pureconfig/pureconfig-macros_2.12/0.10.2/pureconfig-macros_2.12-0.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="co.fs2" name="fs2-io_2.12">
+			<revision name="2.5-15-e328d68" status="release" pubdate="20210106155137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/fs2" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2861" time="0" location="/Users/swapnil.kumar/.ivy2/cache/co.fs2/fs2-io_2.12/ivy-2.5-15-e328d68.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/co/fs2/fs2-io_2.12/2.5-15-e328d68/fs2-io_2.12-2.5-15-e328d68.pom"/>
+				<caller organisation="default" name="common-element_2.12" conf="compile, runtime" rev="2.5-15-e328d68" rev-constraint-default="2.5-15-e328d68" rev-constraint-dynamic="2.5-15-e328d68" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="fs2-io_2.12" type="bundle" ext="jar" status="no" details="" size="314393" time="0" location="/Users/swapnil.kumar/.ivy2/cache/co.fs2/fs2-io_2.12/bundles/fs2-io_2.12-2.5-15-e328d68.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/co/fs2/fs2-io_2.12/2.5-15-e328d68/fs2-io_2.12-2.5-15-e328d68.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="co.fs2" name="fs2-core_2.12">
+			<revision name="2.5-15-e328d68" status="release" pubdate="20210106155137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/fs2" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3160" time="0" location="/Users/swapnil.kumar/.ivy2/cache/co.fs2/fs2-core_2.12/ivy-2.5-15-e328d68.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.12/2.5-15-e328d68/fs2-core_2.12-2.5-15-e328d68.pom"/>
+				<caller organisation="co.fs2" name="fs2-io_2.12" conf="default, compile, runtime, master" rev="2.5-15-e328d68" rev-constraint-default="2.5-15-e328d68" rev-constraint-dynamic="2.5-15-e328d68" callerrev="2.5-15-e328d68"/>
+				<caller organisation="default" name="common-element_2.12" conf="compile, runtime" rev="2.5-15-e328d68" rev-constraint-default="2.5-15-e328d68" rev-constraint-dynamic="2.5-15-e328d68" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="fs2-core_2.12" type="bundle" ext="jar" status="no" details="" size="1041694" time="0" location="/Users/swapnil.kumar/.ivy2/cache/co.fs2/fs2-core_2.12/bundles/fs2-core_2.12-2.5-15-e328d68.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.12/2.5-15-e328d68/fs2-core_2.12-2.5-15-e328d68.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scodec" name="scodec-bits_2.12">
+			<revision name="1.1.23" status="release" pubdate="20201217215625" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scodec/scodec-bits" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD-3-Clause" url="https://github.com/scodec/scodec-bits/blob/main/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2903" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.scodec/scodec-bits_2.12/ivy-1.1.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scodec/scodec-bits_2.12/1.1.23/scodec-bits_2.12-1.1.23.pom"/>
+				<caller organisation="co.fs2" name="fs2-core_2.12" conf="default, compile, runtime, master" rev="1.1.23" rev-constraint-default="1.1.23" rev-constraint-dynamic="1.1.23" callerrev="2.5-15-e328d68"/>
+				<artifacts>
+					<artifact name="scodec-bits_2.12" type="bundle" ext="jar" status="no" details="" size="267697" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.scodec/scodec-bits_2.12/bundles/scodec-bits_2.12-1.1.23.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scodec/scodec-bits_2.12/1.1.23/scodec-bits_2.12-1.1.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-effect_2.12">
+			<revision name="2.3.1" status="release" pubdate="20201218175224" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/cats-effect/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2876" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-effect_2.12/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.3.1/cats-effect_2.12-2.3.1.pom"/>
+				<caller organisation="co.fs2" name="fs2-core_2.12" conf="default, compile, runtime, master" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="2.5-15-e328d68"/>
+				<artifacts>
+					<artifact name="cats-effect_2.12" type="jar" ext="jar" status="no" details="" size="1216650" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-effect_2.12/jars/cats-effect_2.12-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.3.1/cats-effect_2.12-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.12">
+			<revision name="2.3.1" status="release" pubdate="20201218151044" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3366" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.3.1/cats-core_2.12-2.3.1.pom"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.12" conf="compile, runtime" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="2.3.1"/>
+				<caller organisation="co.fs2" name="fs2-core_2.12" conf="default, compile, runtime, master" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="2.5-15-e328d68"/>
+				<artifacts>
+					<artifact name="cats-core_2.12" type="jar" ext="jar" status="no" details="" size="5201313" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.3.1/cats-core_2.12-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="simulacrum-scalafix-annotations_2.12">
+			<revision name="0.5.3" status="release" pubdate="20201217230123" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/simulacrum-scalafix" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2710" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/simulacrum-scalafix-annotations_2.12/ivy-0.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.12/0.5.3/simulacrum-scalafix-annotations_2.12-0.5.3.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.5.3" rev-constraint-default="0.5.3" rev-constraint-dynamic="0.5.3" callerrev="2.3.1"/>
+				<artifacts>
+					<artifact name="simulacrum-scalafix-annotations_2.12" type="jar" ext="jar" status="no" details="" size="7194" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/simulacrum-scalafix-annotations_2.12/jars/simulacrum-scalafix-annotations_2.12-0.5.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.12/0.5.3/simulacrum-scalafix-annotations_2.12-0.5.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="2.3.1" status="release" pubdate="20201218151003" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2904" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.3.1/cats-kernel_2.12-2.3.1.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="2.3.1"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="jar" ext="jar" status="no" details="" size="5016107" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.3.1/cats-kernel_2.12-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427094006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="com.github.scopt" name="scopt_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.7.1"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
+				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
+				<caller organisation="co.fs2" name="fs2-core_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.5-15-e328d68"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-core_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.10.2"/>
+				<caller organisation="default" name="common-element_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.10.2"/>
+				<caller organisation="co.fs2" name="fs2-io_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.5-15-e328d68"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.3"/>
+				<caller organisation="org.typelevel" name="simulacrum-scalafix-annotations_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.5.3"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.1.1"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-macros_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.10.2"/>
+				<caller organisation="org.scodec" name="scodec-bits_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.1.23"/>
+				<caller organisation="com.github.pureconfig" name="pureconfig-generic_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.10.2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="/Users/swapnil.kumar/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

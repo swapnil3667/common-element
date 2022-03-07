@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1609948159447
+Bundle-Description: fs2-io
+Bundle-License: http://opensource.org/licenses/MIT;description=MIT
+Bundle-ManifestVersion: 2
+Bundle-Name: fs2-io
+Bundle-SymbolicName: co.fs2.io
+Bundle-Vendor: Functional Streams for Scala
+Bundle-Version: 2.5.0.e328d68
+Created-By: 11.0.9 (AdoptOpenJDK)
+Export-Package: fs2.io;uses:="cats,cats.effect,cats.effect.concurrent,
+ fs2,fs2.concurrent,fs2.internal,scala,scala.collection,scala.collecti
+ on.immutable,scala.concurrent,scala.concurrent.duration,scala.reflect
+ ,scala.runtime,scala.util";version="2.5.0.e328d68",fs2.io.file;uses:=
+ "cats,cats.arrow,cats.effect,fs2,fs2.internal,fs2.io,scala,scala.coll
+ ection,scala.collection.immutable,scala.concurrent,scala.concurrent.d
+ uration,scala.reflect,scala.runtime";version="2.5.0.e328d68",fs2.io.t
+ cp;uses:="cats.effect,cats.effect.concurrent,fs2,fs2.internal,scala,s
+ cala.collection,scala.collection.immutable,scala.concurrent,scala.con
+ current.duration,scala.reflect,scala.runtime,scala.util";version="2.5
+ .0.e328d68",fs2.io.tls;uses:="cats.effect,cats.effect.concurrent,fs2,
+ fs2.internal,fs2.io.tcp,fs2.io.udp,javax.net.ssl,scala,scala.collecti
+ on,scala.collection.immutable,scala.concurrent,scala.concurrent.durat
+ ion,scala.reflect,scala.runtime";version="2.5.0.e328d68",fs2.io.udp;u
+ ses:="cats.effect,fs2,fs2.internal,scala,scala.collection,scala.colle
+ ction.mutable,scala.concurrent,scala.concurrent.duration,scala.math,s
+ cala.reflect,scala.runtime,scala.util";version="2.5.0.e328d68"
+Implementation-Title: fs2-io
+Implementation-URL: https://github.com/typelevel/fs2
+Implementation-Vendor: Functional Streams for Scala
+Implementation-Vendor-Id: co.fs2
+Implementation-Version: 2.5-15-e328d68
+Import-Package: scala;version="[2.12,2.13)",scala.collection;version="
+ [2.12,2.13)",scala.collection.generic;version="[2.12,2.13)",scala.col
+ lection.immutable;version="[2.12,2.13)",scala.collection.mutable;vers
+ ion="[2.12,2.13)",scala.concurrent;version="[2.12,2.13)",scala.concur
+ rent.duration;version="[2.12,2.13)",scala.math;version="[2.12,2.13)",
+ scala.reflect;version="[2.12,2.13)",scala.runtime;version="[2.12,2.13
+ )",scala.runtime.java8;version="[2.12,2.13)",scala.util;version="[2.1
+ 2,2.13)",fs2;version="2.5.0.e328d68",fs2.concurrent;version="2.5.0.e3
+ 28d68",fs2.internal;version="2.5.0.e328d68",fs2.io;version="2.5.0.e32
+ 8d68",fs2.io.tcp;version="2.5.0.e328d68",fs2.io.udp;version="2.5.0.e3
+ 28d68",cats,cats.arrow,cats.effect,cats.effect.concurrent,cats.effect
+ .implicits,cats.effect.syntax,cats.syntax,javax.net.ssl
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11.0))
+ "
+Specification-Title: fs2-io
+Specification-Vendor: Functional Streams for Scala
+Specification-Version: 2.5-15-e328d68
+Tool: Bnd-5.1.2.202007211702
+

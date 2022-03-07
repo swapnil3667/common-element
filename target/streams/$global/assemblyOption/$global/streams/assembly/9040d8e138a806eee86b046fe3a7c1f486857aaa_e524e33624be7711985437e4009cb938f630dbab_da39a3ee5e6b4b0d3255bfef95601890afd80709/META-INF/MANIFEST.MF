@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1608242137367
+Bundle-Description: scodec-bits
+Bundle-License: https://github.com/scodec/scodec-bits/blob/main/LICENS
+ E;description=BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: scodec-bits
+Bundle-SymbolicName: org.scodec.bits
+Bundle-Vendor: Scodec
+Bundle-Version: 1.1.23
+Created-By: 1.8.0_275 (AdoptOpenJDK)
+Export-Package: scodec.bits;version="1.1.23";uses:="javax.crypto,scala
+ ,scala.collection,scala.collection.generic,scala.collection.immutable
+ ,scala.collection.mutable,scala.collection.parallel,scala.math,scala.
+ reflect,scala.reflect.api,scala.reflect.macros.whitebox,scala.runtime
+ ,scala.util"
+Implementation-Title: scodec-bits
+Implementation-URL: https://github.com/scodec/scodec-bits
+Implementation-Vendor: Scodec
+Implementation-Vendor-Id: org.scodec
+Implementation-Version: 1.1.23
+Import-Package: scala;version="[2.12,2.13)",scala.collection;version="
+ [2.12,2.13)",scala.collection.generic;version="[2.12,2.13)",scala.col
+ lection.immutable;version="[2.12,2.13)",scala.collection.mutable;vers
+ ion="[2.12,2.13)",scala.collection.parallel;version="[2.12,2.13)",sca
+ la.math;version="[2.12,2.13)",scala.reflect;version="[2.12,2.13)",sca
+ la.reflect.api;version="[2.12,2.13)",scala.reflect.macros;version="[2
+ .12,2.13)",scala.reflect.macros.whitebox;version="[2.12,2.13)",scala.
+ runtime;version="[2.12,2.13)",scala.runtime.java8;version="[2.12,2.13
+ )",scala.util;version="[2.12,2.13)",scala.util.hashing;version="[2.12
+ ,2.13)",javax.crypto
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: scodec-bits
+Specification-Vendor: Scodec
+Specification-Version: 1.1.23
+Tool: Bnd-5.1.2.202007211702
+

@@ -20,7 +20,7 @@ I have started implementing the solution in following manner
     ``
     def populateBloomFilter()
     ``
-4. The second input file is parsed again in chunks of 4096 integers and the it filtered with already populated BloomFilter.
+4. The second input file is parsed again in chunks of 4096 integers and then its filtered with the already populated BloomFilter.
 5. Elements of second input file present in the bloom filter are saved to the output file.
 
     

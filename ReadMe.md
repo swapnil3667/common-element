@@ -14,18 +14,18 @@ I have implemented the solution as described in the following steps:
     bloom-filter-algorithm Algorithm for hash function example: SHA1, MD5 etc.
     ``` 
 2. Using Scala FS2 library to read the file in chunks of size 4096 Integers
-3. The first input file is parsed in the first go in function 
+3. The first input file is parsed in initially in the function 
     
     ``
     def populateBloomFilter()
     ``
-4. The second input file is parsed again in chunks of 4096 integers and then its filtered with the already populated BloomFilter.
-5. Elements of second input file present in the bloom filter are saved to the output file.
+4. The second input file is then parsed in chunks of 4096 integers and its filtered with the already populated BloomFilter.
+5. Elements of second input file, present in the bloom filter are saved to the output file.
 
     
 ###Run the Code
 
-Following steps needs to be executed
+Following steps needs to be executed:
 
 ####Build Jar
 We don't need this step , as I have already attached a built jar in the zip file.

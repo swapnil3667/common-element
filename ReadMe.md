@@ -2,11 +2,11 @@
 
 ###Thought Process and Approach
 
-I have started implementing the solution in following manner:
+I have implemented the solution as described in the following steps:
 
 1. Implement a **BloomFilter** which takes following params as input
  
-    ````
+    ```
     bloom-filter-length Length of the BloomFilter ByteArray
     
     bloom-filter-num-hash Number of Hash Function to be used
@@ -28,8 +28,8 @@ I have started implementing the solution in following manner:
 Following steps needs to be executed
 
 ####Build Jar
-We don't this step , as I have already attached a built jar in the zip file.
-We need to build it again , only if we make some change to code.
+We don't need this step , as I have already attached a built jar in the zip file.
+We need to build it again , only if we make some changes to code.
 
 ``sbt clean compile assembly``
 

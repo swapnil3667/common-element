@@ -4,7 +4,7 @@
 
 I have started implementing the solution in following manner
 
-1. Implement a BloomFilter which take following params as input
+1. Implement a BloomFilter which takes following params as input
  
     ````
     bloom-filter-length Length of the BloomFilter ByteArray

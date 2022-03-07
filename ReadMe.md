@@ -1,10 +1,10 @@
 #Common Elements
 
-###Thought process and Approach
+###Thought Process and Approach
 
-I have started implementing the solution in following manner
+I have started implementing the solution in following manner:
 
-1. Implement a BloomFilter which takes following params as input
+1. Implement a **BloomFilter** which takes following params as input
  
     ````
     bloom-filter-length Length of the BloomFilter ByteArray
@@ -12,7 +12,6 @@ I have started implementing the solution in following manner
     bloom-filter-num-hash Number of Hash Function to be used
     
     bloom-filter-algorithm Algorithm for hash function example: SHA1, MD5 etc.
-    
     ``` 
 2. Using Scala FS2 library to read the file in chunks of size 4096 Integers
 3. The first input file is parsed in the first go in function 
